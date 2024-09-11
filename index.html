@@ -5,16 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StudySync</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
 </head>
 <body>
     <div class="container">
         <div class="main_box" style="background-image: url('image/img_1.jpg');">
             <header>
                 <div class="nav">
-                    <div class="product">Products
+                    <div class="drop_down" id="products">
+                        Products
+                        <div class="drop_contant">
+                            <a href="#">
+                                <h6>StudySyncEla</h6>
+                                <p>Comprehensive English Language Arts</p>
+                            </a>
+                            <a href="#">
+                                <h6>SyncBlasts</h6>
+                                <p>Cross-circular,Inquiry-Based,Reading and Writing solution</p>
+                            </a>
+                            <a href="#">
+                                <h6>StudysyncGlobal</h6>
+                                <p>ARigorous gobal english language atrs cirriculum</p>
+                            </a>
+                        </div>
+                        
                     </div>
-                    <div class="company">Company</div>
-                    <div class="menu">Menu</div>
+                    <div class="drop_down" id="company">Company</div>
+
+                    <div class="drop_down">Menu
+                        <div class="drop_contant" id="menu_div"  style="height: 100vh; position: fixed; right: 0;top: 0; border-radius: 0;">
+                            <a href="#" style="margin-left: 30px;">
+                                <h6 style="color: rgb(216, 167, 4); margin-top: 40px;">PRODUCTS</h6>
+                                <h style="font-size: 20px;">Studysyncela</h>
+                                <h style="font-size: 20px;">Syncblast</h>
+                                <h style="font-size: 20px;" >Studysyncglobal</h>
+                            </a>
+                            <a href="#" style="margin-top: 40px; margin-left: 30px;">
+                                <h6 style="color: rgb(216, 167, 4); margin-top: 40px;">COMPANY</h6>
+                                <h style="font-size: 20px;">Company</h>
+                                <h style="font-size:20;">Contact</h>
+                                
+                            </a>
+                            <a href="#" style="margin-top: 40px; margin-left: 30px;">
+                                <h6 style="color: rgb(216, 167, 4); margin-top: 40px;">Remote Learning</h6>
+                                <h style="font-size: 20px;">The Daily Sync</h>
+                                <h style="font-size: 20px;">Remote Resources</h>
+                               
+                            </a>
+                            <a href="#" style="margin-top: 40px; margin-left: 30px;">
+                                <h6 style="color: rgb(216, 167, 4); margin-top: 40px;">ENGAGE</h6>
+                                <h style="font-size: 20px; display: block;">Blogs</h>
+                                <h style="font-size: 20px;">Webinars</h>
+                                <h style="font-size: 20px;">Subscribe</h>                               
+                            </a>                           
+                        </div>
+                    </div>
                 </div>
             </header>
             <h1 style="text-shadow: 4px 4px 5px black;">TOGETHER WE'RE SMARTER</h1>
@@ -53,7 +98,16 @@
             <h1 style="text-align: center; margin: 30px;">Make an Impact</h1>
             <p style="text-align: center;">We set the industry standard for bringing learning to life. We are dedicated to producing the highest <br>quality content — from instruction, to imagery and motion graphics, to audio and video. And, we’ve built <br> an entire production studio to create compelling educational content.</p>
         </div>
-        <div class="main"></div>
+        <div class="main">
+            <div class="img"><img src="image/img_8.jpg" alt=""></div>
+            <div class="img"><img src="image/img_9.jpg" alt=""></div>
+            <div class="img"><img src="image/img_10.jpg" alt=""></div>
+            <div class="img"><img src="image/img_11.jpg" alt=""></div>
+            <div class="img"><img src="image/img_12.jpg" alt=""></div>
+            <div class="img"><img src="image/img_13.jpg" alt=""></div>
+            <div class="img"><img src="image/img_14.jpg" alt=""></div>
+            <div class="img"><img src="image/img_15.jpg" alt=""></div>
+        </div>
             <div class="text_2">
                 <h2>Join more than 4,000,000 students & teachers on StudySync</h2>
             </div>
@@ -77,6 +131,12 @@
         </div>
         
     </div>
+    <!-- <script>
+        const buttton = document.getElementById("menu");
+        buttton.addEventListener("click",()=>{
+        
+        })       
+    </script> -->
   
 </body>
 </html>
